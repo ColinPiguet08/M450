@@ -1,3 +1,5 @@
+package grundlagen;
+
 public class PriceCalculator {
 
     public double calculatePrice(double baseprice, double specialprice, double extraprice, int extras, double discount) {

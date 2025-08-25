@@ -1,3 +1,5 @@
+package grundlagen;
+
 public class PriceCalculatorTest {
 
     public static boolean test_calculate_price() {
@@ -25,11 +27,4 @@ public class PriceCalculatorTest {
         return test_ok;
     }
 
-    public static void main(String[] args) {
-        if (test_calculate_price()) {
-            System.out.println("Alle Tests erfolgreich!");
-        } else {
-            System.out.println("Mindestens ein Test fehlgeschlagen!");
-        }
-    }
 }

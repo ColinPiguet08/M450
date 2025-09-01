@@ -1,3 +1,5 @@
+aufgabem: https://gitlab.com/ch-tbz-it/Stud/m450/m450/-/blob/main/Unterlagen/grundlagen/UEBUNGEN.md
+
 # Aufgabe 1: Testarten
 
 ## Unit-Tests (Modultests):
@@ -25,3 +27,26 @@ Programm erfüllt die Anforderungen nicht vollständig.
 NASA Mars Climate Orbiter (1999):
 Wegen unterschiedlicher Masseinheiten (metrisch vs. imperial) stürzte die Sonde ab.
 → Schaden: rund 125 Millionen Dollar.
+
+# Aufgabe 3: 
+
+![alt text](image.png)
+
+Im Beispielcode ist ein kleiner Fehler:
+
+```
+if (extras >= 3) 
+    addon_discount = 10;
+else if (extras >= 5)
+    addon_discount = 15;
+```
+
+Die Bedingung >= 3 greift immer zuerst, also wird >= 5 nie erreicht.
+Korrektur:
+
+```
+if (extras >= 5)
+    addon_discount = 15;
+else if (extras >= 3)
+    addon_discount = 10;
+```

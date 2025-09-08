@@ -1,0 +1,67 @@
+
+|
+java:S1192M"fDefine a constant instead of duplicating this literal "! UngÃ¼ltige Eingabe, bitte nochmals!" 5 times.(ØÕ’
+t	java:S135â"YReduce the total number of break and continue statements in this loop to use at most one.(ü§è½ùÿÿÿÿ
+A
+java:S3010"&Remove this assignment of "counterId".(§åß€ÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¾ ½÷
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¶Èí‹
+@	java:S106"+Replace this use of System.out by a logger.(à—ã
+@	java:S106"+Replace this use of System.out by a logger.(Ê´ë
+E	java:S106"+Replace this use of System.out by a logger.(ŸÀ¯Àÿÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(ïßÙŠ
+@	java:S106!"+Replace this use of System.out by a logger.(ïíã‹
+@	java:S106""+Replace this use of System.out by a logger.(èßïû
+@	java:S106#"+Replace this use of System.out by a logger.(…ï¼±
+E	java:S106$"+Replace this use of System.out by a logger.(Ü£¡øÿÿÿÿ
+K
+java:S6035("0Replace this alternation with a character class.(œš±¡ÿÿÿÿÿ
+?	java:S106,"+Replace this use of System.out by a logger.(™½šw
+<	java:S1311""Add a default case to this switch.(‰Úüúÿÿÿÿ
+[
+java:S1193I"@Replace the usage of the "instanceof" operator by a catch block.(ÓÁ†—ûÿÿÿÿ
+[
+java:S1193L"@Replace the usage of the "instanceof" operator by a catch block.(ü°ˆ™ÿÿÿÿÿ
+E	java:S106J"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ
+@	java:S106M"+Replace this use of System.out by a logger.(ØÕ’
+@	java:S106]"+Replace this use of System.out by a logger.(Ê´ë
+@	java:S106^"+Replace this use of System.out by a logger.(å¿ö¥
+E	java:S106_"+Replace this use of System.out by a logger.(’Š³›şÿÿÿÿ
+@	java:S106`"+Replace this use of System.out by a logger.(œÜê³
+E	java:S106a"+Replace this use of System.out by a logger.(ï°ªäşÿÿÿÿ
+E	java:S106b"+Replace this use of System.out by a logger.(ØÏûûÿÿÿÿ
+@	java:S106c"+Replace this use of System.out by a logger.(â¿İ’
+@	java:S106d"+Replace this use of System.out by a logger.(öè‰ô
+E	java:S106g"+Replace this use of System.out by a logger.(æú‘Ìÿÿÿÿÿ
+E	java:S106p"+Replace this use of System.out by a logger.(°‹½üÿÿÿÿ
+7	java:S131t""Add a default case to this switch.(™Ïêƒ
+A	java:S106Š"+Replace this use of System.out by a logger.(¡¡×™
+A	java:S106—"+Replace this use of System.out by a logger.(£˜Ë™
+n
+java:S3776£"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(«Ú·úÿÿÿÿ
+A	java:S106¤"+Replace this use of System.out by a logger.(à—ã
+@	java:S106¥"+Replace this use of System.out by a logger.(üæ£R
+F	java:S106©"+Replace this use of System.out by a logger.(Ü£¡øÿÿÿÿ
+F	java:S106°"+Replace this use of System.out by a logger.(ğõàˆıÿÿÿÿ
+F	java:S106Ã"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ
+A	java:S106Ç"+Replace this use of System.out by a logger.(ØÕ’
+A	java:S106Ğ"+Replace this use of System.out by a logger.(ø€¯†
+F	java:S106â"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ
+A	java:S106å"+Replace this use of System.out by a logger.(ØÕ’
+F	java:S106ƒ"+Replace this use of System.out by a logger.(¸Û…Íúÿÿÿÿ
+F	java:S106‰"+Replace this use of System.out by a logger.(à­ü¥ıÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(ØÕ’
+F	java:S106—"+Replace this use of System.out by a logger.(Ê§ßÿÿÿÿÿ
+F	java:S106¢"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ
+A	java:S106¦"+Replace this use of System.out by a logger.(ØÕ’
+F	java:S106°"+Replace this use of System.out by a logger.(ìÊƒûÿÿÿÿ
+F	java:S106´"+Replace this use of System.out by a logger.(íáâ«üÿÿÿÿ
+A	java:S106¼"+Replace this use of System.out by a logger.(¦½€´
+A	java:S106Æ"+Replace this use of System.out by a logger.(š—¹
+F	java:S106Ğ"+Replace this use of System.out by a logger.(¹ıâ‡üÿÿÿÿ
+A	java:S106ã"+Replace this use of System.out by a logger.(¹š¸Å
+A
+java:S5869ç"*Remove duplicates in this character class.(—¸ÓÃ
+A	java:S106ë"+Replace this use of System.out by a logger.(ëıÓ•
+A	java:S106ø"+Replace this use of System.out by a logger.(­ä­˜

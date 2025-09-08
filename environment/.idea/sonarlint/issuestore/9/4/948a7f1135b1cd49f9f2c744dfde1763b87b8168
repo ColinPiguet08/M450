@@ -1,0 +1,14 @@
+
+ó
+java:S1186	"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ï…õç
+@	java:S106"+Replace this use of System.out by a logger.(ıÈ˘Ú
+Q	java:S125"<This block of commented-out lines of code should be removed.(≥°˜∞
+P	java:S125'"<This block of commented-out lines of code should be removed.(˛ª◊|
+@	java:S106."+Replace this use of System.out by a logger.(ÚÁŒî
+@	java:S1061"+Replace this use of System.out by a logger.(ç‡ó„
+@	java:S1062"+Replace this use of System.out by a logger.(ËÑ∞ó
+E	java:S1063"+Replace this use of System.out by a logger.(ƒ®”Ô˙ˇˇˇˇ
+@	java:S1064"+Replace this use of System.out by a logger.(ÖèÓã
+E	java:S1068"+Replace this use of System.out by a logger.(ô∫À◊˘ˇˇˇˇ
+@	java:S106="+Replace this use of System.out by a logger.(„·É∑
+@	java:S106D"+Replace this use of System.out by a logger.(’Ó±⁄

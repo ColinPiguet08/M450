@@ -1,5 +1,5 @@
 
-m
-java:S1104-"RMake result a static final constant or non-public and provide accessors if needed.(çØôñıÿÿÿÿ
-@	java:S106'"+Replace this use of System.out by a logger.(ŠÕóú
-V	java:S1251"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ
+“
+java:S1104-"RMake result a static final constant or non-public and provide accessors if needed.(çØôñıÿÿÿÿJ$e28d0409-791d-4b66-ace3-dafb8871d204
+f	java:S106'"+Replace this use of System.out by a logger.(ŠÕóúJ$3aa2b1da-3639-4db2-95a1-052637807d5e
+|	java:S1251"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿJ$19678788-134f-49d6-9cc9-663e2a574f69

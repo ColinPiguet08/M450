@@ -81,7 +81,7 @@ public class Counter {
         } while (true);
     }
 
-    /**
+    /*
      * Actions for account editing.
      * @param accountNo The Account that should be edited.
      * @return Returns a boolean value that is used in do-while loop in main.

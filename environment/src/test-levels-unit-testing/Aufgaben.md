@@ -70,3 +70,16 @@ class CalculatorTest {
 ---
 
 # Aufgabe 3 & 4
+## Bank
+### Struktur: 
+Konto -> beinhaltet Daten vom Konto: name, balance etc.
+- Account
+    - Salary
+    - Savings
+        - PromoYouth (extends Savings)
+     
+BankUtils: Formatiert Daten wird in Bookings.java verwendet.
+
+Bank: Kann man sich halt wie eine echte Bank vorstellen, mit allen Konten, und methoden um Konten zu erstellen
+
+Booking: Für transaktionen.

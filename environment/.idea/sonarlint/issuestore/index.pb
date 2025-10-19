@@ -21,12 +21,6 @@ Psrc/teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Main.jav
 +src/teststrategie/bank-software-mvn/pom.xml,c\a\caad632b458ba108803d50720c7726e6588e4d5a
 ^
 .src/teststrategie/bank-software-mvn/.gitignore,b\1\b1b8e488b8b57a0df22d4a79cad316f6fc0cc014
-Z
-*src/test-levels-unit-testing/src/Main.java,7\a\7ae1dfedd82da3745325967e90d33d7fed86e836
-`
-0src/test-levels-unit-testing/src/Calculator.java,7\c\7caa0b70b112f08524a56d01790307817535b433
-b
-2src/test-levels-unit-testing/src/package-info.java,5\7\5705521b0b768f0d82df28242473ba3995e7dd6d
 u
 Esrc/test-levels-unit-testing/src/main/java/calculator/Calculator.java,e\5\e5fd8aef0a90ca87e2e7746bd5ab2d9124954ca8
 o

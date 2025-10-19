@@ -83,3 +83,8 @@ BankUtils: Formatiert Daten wird in Bookings.java verwendet.
 Bank: Kann man sich halt wie eine echte Bank vorstellen, mit allen Konten, und methoden um Konten zu erstellen
 
 Booking: Für transaktionen.
+
+
+## Code coverage
+<img width="2111" height="940" alt="image" src="https://github.com/user-attachments/assets/5b9cb128-9de3-4b13-8d74-33e6d17a5ed7" />
+

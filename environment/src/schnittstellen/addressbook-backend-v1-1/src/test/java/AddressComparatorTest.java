@@ -3,7 +3,7 @@ import ch.tbz.m450.util.AddressComparator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Date;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -37,63 +37,76 @@ class AddressComparatorTest {
     }
 
     @Test
-    void testCompareByCity() {
-        int result = comparator.compare(a1, a2);
-        assertTrue(result < 0, "Basel should come before Zürich alphabetically");
+    void testSortByCity() {
+        List<Address> addresses = new ArrayList<>(List.of(a2, a1));
+        addresses.sort(comparator);
+
+        assertEquals(a1, addresses.get(0), "Basel should come before Zürich");
     }
 
     @Test
-    void testCompareByEmail() {
+    void testSortByEmail() {
         a1.setCity("Basel");
         a2.setCity("Basel");
+        a1.setEmail("anna@example.com");
         a2.setEmail("zzz@example.com");
 
-        int result = comparator.compare(a1, a2);
-        assertTrue(result < 0, "Emails should be compared alphabetically");
+        List<Address> addresses = new ArrayList<>(List.of(a2, a1));
+        addresses.sort(comparator);
+
+        assertEquals(a1, addresses.get(0), "anna@example.com should come before zzz@example.com");
     }
 
     @Test
-    void testCompareByLastnameFirstname() {
-        a2.setLastname("Ammann");
-        int result = comparator.compare(a1, a2);
-        assertTrue(result > 0, "Muster should come after Ammann alphabetically");
-    }
-
-    @Test
-    void testCompareByRegistrationDate() {
+    void testSortByLastnameFirstname() {
         a1.setLastname("Muster");
+        a2.setLastname("Ammann");
         a1.setFirstname("Max");
+        a2.setFirstname("Anna");
+
+        List<Address> addresses = new ArrayList<>(List.of(a1, a2));
+        addresses.sort(comparator);
+
+        assertEquals(a2, addresses.get(0), "Ammann should come before Muster alphabetically");
+    }
+
+    @Test
+    void testSortByRegistrationDate() {
         a1.setCity("Basel");
-        a1.setEmail("max@example.com");
-        a1.setPhonenumber("0791234567");
-
-        a2.setLastname("Muster");
-        a2.setFirstname("Max");
         a2.setCity("Basel");
+        a1.setEmail("max@example.com");
         a2.setEmail("max@example.com");
-        a2.setPhonenumber("0791234567");
-
         a1.setRegistrationDate(new Date(1000));
         a2.setRegistrationDate(new Date(2000));
 
-        int result = comparator.compare(a1, a2);
-        assertTrue(result < 0, "Older registration date should come first");
+        List<Address> addresses = new ArrayList<>(List.of(a2, a1));
+        addresses.sort(comparator);
+
+        assertEquals(a1, addresses.get(0), "Older registration date should come first");
     }
 
     @Test
-    void testCompareEqualAddresses() {
+    void testSortEqualAddresses() {
         a2.setCity("Basel");
         a2.setEmail("max@example.com");
         a2.setRegistrationDate(a1.getRegistrationDate());
-        int result = comparator.compare(a1, a2);
-        assertEquals(0, result, "Identical addresses should compare equal");
+
+        List<Address> addresses = new ArrayList<>(List.of(a2, a1));
+        addresses.sort(comparator);
+
+        assertEquals(a2, addresses.get(0));
+        assertEquals(a1, addresses.get(1));
+        assertEquals(0, comparator.compare(a1, a2), "Equal addresses should compare equal");
     }
 
     @Test
-    void testCompareWithNullFields() {
+    void testSortWithNullValues() {
         a1.setCity(null);
         a2.setCity("Basel");
-        int result = comparator.compare(a1, a2);
-        assertTrue(result < 0, "Null city should be treated as smaller value");
+
+        List<Address> addresses = new ArrayList<>(List.of(a2, a1));
+        addresses.sort(comparator);
+
+        assertEquals(a1, addresses.get(0), "Null city should be treated as smaller value");
     }
 }

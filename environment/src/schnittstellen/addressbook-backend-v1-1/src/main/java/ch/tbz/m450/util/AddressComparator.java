@@ -9,27 +9,27 @@ public class AddressComparator implements Comparator<Address> {
     public int compare(Address a1, Address a2) {
         if (a1 == null || a2 == null) return 0;
 
-        // 1️⃣ Nach Nachname
+        // Nach Nachname
         int lastNameCompare = safeCompareIgnoreCase(a1.getLastname(), a2.getLastname());
         if (lastNameCompare != 0) return lastNameCompare;
 
-        // 2️⃣ Nach Vorname
+        // Nach Vorname
         int firstNameCompare = safeCompareIgnoreCase(a1.getFirstname(), a2.getFirstname());
         if (firstNameCompare != 0) return firstNameCompare;
 
-        // 3️⃣ Nach Stadt
+        // Nach Stadt
         int cityCompare = safeCompareIgnoreCase(a1.getCity(), a2.getCity());
         if (cityCompare != 0) return cityCompare;
 
-        // 4️⃣ Nach Email
+        // Nach Email
         int emailCompare = safeCompareIgnoreCase(a1.getEmail(), a2.getEmail());
         if (emailCompare != 0) return emailCompare;
 
-        // 5️⃣ Nach Telefonnummer
+        // Nach Telefonnummer
         int phoneCompare = safeCompare(a1.getPhonenumber(), a2.getPhonenumber());
         if (phoneCompare != 0) return phoneCompare;
 
-        // 6️⃣ Nach Registrierungsdatum
+        // Nach Registrierungsdatum
         if (a1.getRegistrationDate() == null || a2.getRegistrationDate() == null) return 0;
         return a1.getRegistrationDate().compareTo(a2.getRegistrationDate());
     }

@@ -19,5 +19,4 @@ public class CalculatorTest {
         assertEquals(5.0, calculator.add(2, 3));
         assertEquals(-1.0, calculator.add(-2, 1));
     }
-
 }

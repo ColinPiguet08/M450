@@ -1,0 +1,1 @@
+{"version":1,"defects":{"MyFancyClassTest::testShortString":5,"MyFancyClassTest::testCalcAverage":5,"MyFancyClassTest::testGetOpposite":5},"times":{"MyFancyClassTest::testShortString":0,"MyFancyClassTest::testCalcAverage":0.001,"MyFancyClassTest::testGetOpposite":0}}
